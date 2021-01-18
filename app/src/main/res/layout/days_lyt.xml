@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnr_days"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/grad_bg"
+        android:clipToPadding="false"
+        android:elevation="1dp">
+
+        <TextView
+            android:id="@+id/txt_day_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Everyday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/grad_bg"
+        android:clipToPadding="false"
+        android:elevation="1dp">
+
+
+        <TextView
+            android:id="@+id/txt_day_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Monday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/grad_bg"
+        android:clipToPadding="false"
+        android:elevation="1dp">
+
+
+        <TextView
+            android:id="@+id/txt_day_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Thusday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/grad_bg"
+        android:clipToPadding="false"
+        android:elevation="1dp">
+
+
+        <TextView
+            android:id="@+id/txt_day_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Wednesday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/grad_bg"
+        android:clipToPadding="false"
+        android:elevation="1dp">
+
+        <TextView
+            android:id="@+id/txt_day_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Thursday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/grad_bg"
+        android:clipToPadding="false"
+        android:elevation="1dp">
+
+        <TextView
+            android:id="@+id/txt_day_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Friday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/grad_bg"
+        android:clipToPadding="false"
+        android:elevation="1dp">
+
+        <TextView
+            android:id="@+id/txt_day_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Saturday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_daysClickable8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+
+        android:background="@drawable/grad_bg"
+        android:elevation="1dp">
+
+        <TextView
+            android:id="@+id/txt_day_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:text="Sunday"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frmDay8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/imageDayCheck8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avd_done_on"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
